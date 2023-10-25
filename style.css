@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background: rgb(248, 0, 0);
+    padding: 30px;
+    border-radius: 3px;
+}
+.content{
+    width: 470px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 3px;
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+h3{
+    text-align: center;
+    margin-top: -10px;
+    padding: 12px;
+}
+input{
+    width: 380px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid red;
+    border-radius: 3px;
+}
+.instruct{
+    content: 'Type a word & click "Enter" to get the result';
+    padding: 12px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+.details{
+    padding: 8px;
+    font-size: 17px;
+}
+.con-heading{
+    color: rgb(253, 14, 14);
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+.con-span{
+    color: gray;
+}
+.input-word{
+    margin: -30px;
+}
+
