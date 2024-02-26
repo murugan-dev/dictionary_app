@@ -51,13 +51,7 @@ function fetchApi(word){
             <span class="con-span">${data[0].meanings[0].definitions[0].example || "Sorry couldn't found Example of the word" }</span>                
         </div>
    </div>
-   <hr>
-   <div class="source">
-        <div class="details">
-            <p class="con-heading">Source : </p>
-            <span class="con-span"><a>${data[0].sourceUrls[0]}</a></span>                
-        </div>
-   </div>`;
+   `;
 
     })
  }
