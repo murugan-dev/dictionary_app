@@ -18,6 +18,7 @@ body{
 }
 .content{
     width: 470px;
+    min-width: 300px;
     background: #fff;
     padding: 40px;
     border-radius: 3px;
@@ -31,6 +32,7 @@ h3{
 }
 input{
     width: 380px;
+    min-width: 200px;
     height: 40px;
     outline: none;
     padding-left: 10px;
@@ -61,3 +63,12 @@ input{
     margin: -30px;
 }
 
+@media screen and (max-width: 480px){
+    .content{
+        width: 370px;
+        padding: 0px 30px;
+    }
+    input{
+        width: 290px;
+    }
+}
