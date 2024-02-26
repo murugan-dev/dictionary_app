@@ -65,10 +65,11 @@ input{
 
 @media screen and (max-width: 480px){
     .content{
-        width: 370px;
+        width: 270px;
         padding: 0px 30px;
     }
     input{
-        width: 290px;
+        width: 260px;
+        min-width: 200px;
     }
 }
